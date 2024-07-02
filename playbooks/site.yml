@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - name: Import common.yml playbook
+      import_playbook: ../static-assignments/common-del.yml
