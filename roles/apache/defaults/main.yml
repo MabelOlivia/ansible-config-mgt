@@ -1,4 +1,8 @@
 ---
+# roles/apache/defaults/main.yml
+enable_apache_lb: false
+load_balancer_is_required: false
+
 apache_enablerepo: ""
 
 apache_listen_ip: "*"
