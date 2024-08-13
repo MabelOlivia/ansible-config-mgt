@@ -1,4 +1,7 @@
 ---
+- hosts: all
+- import_playbook: ../static-assignments/common-del.yml
+
 # - hosts: all
 #   name: Include dynamic variables
 #   become: yes
@@ -15,7 +18,3 @@
 
 # - import_playbook: ../static-assignments/db-servers.yml
 
-- hosts: all
-  tasks:
-    - name: Import common.yml playbook
-      import_playbook: ../static-assignments/common-del.yml
