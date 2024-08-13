@@ -2,3 +2,8 @@
 172.31.15.181 ansible_ssh_user='ec2-user'
 172.31.14.170 ansible_ssh_user='ec2-user'
 
+[lb]
+172.31.33.188 ansible_ssh_user='ubuntu'
+
+[db_servers]
+172.31.32.174 ansible_ssh_user='ubuntu'
